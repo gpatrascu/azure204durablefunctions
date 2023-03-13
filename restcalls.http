@@ -1,0 +1,14 @@
+
+POST http://localhost:7071/api/InvoiceOrchestration_HttpStart HTTP/1.1
+content-type: application/json
+
+{
+    "clientName": "Octavian Patrascu",
+    "emailAddress": "octavian.patrascu@yahoo.com",
+    "invoiceAddress": "somewhere in Valea Adanca",
+    "value": "300.12"
+}
+
+###
+
+POST http://localhost:7071/api/invoices/event/8df3ce8d72d6431ab856efd3519d5cfc HTTP/1.1
